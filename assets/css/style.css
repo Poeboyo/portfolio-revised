@@ -245,7 +245,6 @@ main {
 .name-text {
   margin-left: 1%;
 }
-.card-content {
-  min-width: 192px;
-  min-height: 152px;
+.card-text {
+  color: #000000;
 }
