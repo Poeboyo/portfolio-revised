@@ -256,6 +256,7 @@ main {
   padding-top: 2%;
   padding-bottom: 2%;
   opacity: 0.8;
+  margin-bottom: 6%;
 }
 .btn {
   margin-left: 43%;
@@ -265,4 +266,8 @@ main {
 .contact-me-form {
   width: 50%;
   margin-left: 24%;
+}
+.twitter {
+  margin-left: 6%;
+  width: 4%;
 }
