@@ -321,33 +321,24 @@
 
     </div>
 
+    <h3 class="separator-contact">Contact Me</h3>
 
-    <div class="container">
-        <a href="https://github.com/Poeboyo" target="_blank"><img class="logo github-link"
-                src="assets/images/github-logo.png"></a>
-    </div>
+
     <div class="black-transparent responsive">
-        <div class="row">
-            <form class="col s12">
-                <div class="row">
-                    <div class="input-field col s4">
-                        <i class="material-icons prefix">account_circle</i>
-                        <input id="icon_prefix" type="text" class="validate">
-                        <label for="icon_prefix">Name</label>
-                    </div>
-                    <div class="input-field col s4">
-                        <i class="material-icons prefix ">mail_outline</i>
-                        <input id="icon_mail_outline" type="tel" class="validate">
-                        <label for="icon_mail_outline">Email</label>
-                    </div>
-                    <div class="input-field col s4">
-                        <i class="material-icons prefix">phone</i>
-                        <input id="icon_phone" type="tel" class="validate">
-                        <label for="icon_phone">Number</label>
-                    </div>
-                </div>
-            </form>
-        </div>
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/xkngazbp"
+            method="post" class="contact-me-form">
+            <fieldset id="fs-frm-inputs">
+                <label for="full-name">Full Name</label>
+                <input type="text" name="name" id="full-name" placeholder="Full Name" required="">
+                <label for="email-address">Email Address</label>
+                <input type="email" name="_replyto" id="email-address" placeholder="email@email.yeah" required="">
+                <label for="message">Message</label>
+                <textarea rows="5" name="message" id="message"
+                    placeholder="Hello, I'd like to get in contact with you, please respond. " required=""></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <input type="submit" value="Submit" class="btn waves-effect waves-light">
+        </form>
     </div>
 
 
