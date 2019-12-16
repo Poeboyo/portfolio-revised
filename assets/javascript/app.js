@@ -10,6 +10,9 @@ $(".carousel.carousel-slider").carousel({
 $(document).ready(function() {
   $(".carousel").carousel();
 });
+$(document).ready(function() {
+  $(".scrollspy").scrollSpy();
+});
 console.log(`
     ████████╗██╗░░██╗░█████╗░████████╗  ░██╗░░░░░░░██╗░█████╗░░██████╗███╗░░██╗██╗████████╗
     ╚══██╔══╝██║░░██║██╔══██╗╚══██╔══╝  ░██║░░██╗░░██║██╔══██╗██╔════╝████╗░██║╚█║╚══██╔══╝
