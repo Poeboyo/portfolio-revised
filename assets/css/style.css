@@ -215,7 +215,6 @@ main {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .separator-proj {
-  margin-top: 5%;
   background-color: black;
   text-align: center;
   padding-top: 2%;
@@ -287,4 +286,7 @@ main {
   width: 4%;
   margin-left: 0.5%;
   margin-right: 0.5%;
+}
+.projects {
+  margin-top: 6%;
 }
