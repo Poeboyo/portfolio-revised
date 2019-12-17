@@ -21,7 +21,7 @@ main {
   .headshot {
     height: 40%;
     width: 20%;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -37,7 +37,7 @@ main {
     height: 40%;
     width: 20%;
     display: block;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
@@ -55,7 +55,7 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
     margin-top: 2%;
     margin-bottom: 2%;
   }
@@ -71,7 +71,7 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
     margin-top: 2%;
     margin-bottom: 2%;
   }
@@ -84,7 +84,7 @@ main {
   .headshot {
     height: 50%;
     width: 30%;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -100,7 +100,7 @@ main {
   .headshot {
     height: 50%;
     width: 30%;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -115,7 +115,7 @@ main {
   .headshot {
     height: 50%;
     width: 20%;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -130,7 +130,7 @@ main {
 @media (max-width: 812px) {
   .headshot {
     width: 30%;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -144,7 +144,7 @@ main {
 @media (min-width: 900px) {
   .headshot {
     width: 18%;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -271,7 +271,4 @@ main {
 }
 .projects {
   margin-top: 6%;
-}
-.headshot {
-  transform: rotate(90deg);
 }
