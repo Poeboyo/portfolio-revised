@@ -272,3 +272,6 @@ main {
 .projects {
   margin-top: 6%;
 }
+.headshot {
+  rotate: 90deg;
+}
